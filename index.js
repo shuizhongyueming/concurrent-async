@@ -26,6 +26,15 @@
  * }).end(function(error){
  * }).run();
  */
+
+
+(function (factory) {  
+  if (typeof exports == 'object') {
+    module.exports = factory();
+  } else if ((typeof define == 'function') && define.amd) {
+    define(factory);
+  }
+}(function () {
 var Type = require('type-of-is');
 
 function ConcurrentAsync(){
@@ -169,4 +178,4 @@ ConcurrentAsync.prototype._next = function(){
     }
 };
 
-
+});
