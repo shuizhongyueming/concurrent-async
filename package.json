@@ -1,0 +1,27 @@
+{
+  "name": "concurrent-async",
+  "version": "1.0.0",
+  "description": "A easy way to take a callback for some concurrent async method",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shuizhongyueming/concurrent-async.git"
+  },
+  "keywords": [
+    "async",
+    "concurrent",
+    "callback"
+  ],
+  "author": "shuizhongyueming@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shuizhongyueming/concurrent-async/issues"
+  },
+  "homepage": "https://github.com/shuizhongyueming/concurrent-async#readme",
+  "devDependencies": {
+    "jasmine": "^2.4.1"
+  }
+}
